@@ -2629,7 +2629,7 @@ class Mission
 						};
 						class Item5
 						{
-							value="0.1";
+							value="0.2";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_spawn_setting";
 						};
@@ -2647,7 +2647,7 @@ class Mission
 						};
 						class Item8
 						{
-							value="true";
+							value="false";
 							parentCls="ALiVE_mil_cqb";
 							typeName="CQB_UseDominantFaction";
 						};
@@ -2881,7 +2881,7 @@ class Mission
 						};
 						class Item9
 						{
-							value="0.5";
+							value="0.75";
 							parentCls="ALiVE_civ_placement";
 							typeName="readinessLevel";
 						};
