@@ -1,6 +1,11 @@
 call ZC_fnc_initZCrespawn;
 execVM "R3F_LOG\init.sqf";
 
+["init",["WEST","LOP_ChDKZ"]] call SCI_fnc_civilianInteraction;
+
+[] execVM "staticData.sqf";
+//------------------------------//
+
 //HandlessClient Inicialização
 
 if (!hasInterface && !isDedicated) then {
