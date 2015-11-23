@@ -9,10 +9,10 @@ execVM "R3F_LOG\init.sqf";
 //HandlessClient Inicialização
 
 if (!hasInterface && !isDedicated) then {
-headlessClients = [];
-headlessClients set [(count headlessClients), player];
-publicVariable "headlessClients";
-isHC = true;
+  headlessClients = [];
+  headlessClients pushBack player;
+  publicVariable "headlessClients";
+  isHC = true;
 };
 
 enableSaving [false,false];
